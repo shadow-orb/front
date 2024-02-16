@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+
+    <div id="loginForm">
+      <div><h1>Note Web</h1></div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div id="loggedIn" style="display: none">
+      <h1>Welcome, <span id="user"></span>!</h1>
+      <button onclick="logout()">Logout</button>
+      <div>
+        <h2>Add Notes</h2>
+        <div id="AddNotes">
+            <input type="text" id="Note" class="input">
+            <input type="submit" id="submitbtn" class="add">
+        </div>
+    </div>
+    <div>
+        <h2>My Notes</h2>
+    </div>
+    <div id="Notes" class="notes"></div>
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
