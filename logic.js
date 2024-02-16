@@ -199,7 +199,7 @@ function login() {
     document.getElementById("loginForm").style.display = "none";
   } else {
 
-    alert("please enter a valid username or password");
+    alert("Wrong username or password");
   }
 }
 
